@@ -4,14 +4,14 @@ import { Briefcase, GraduationCap } from "lucide-react";
 export function Experience() {
   const experiences = [
     {
-      title: "Private Tutor",
+      title: "Private Tutor (Freelance)",
       period: "2020 – 2025",
       type: "Professional Experience",
       icon: Briefcase,
       points: [
-        "Delivered IT, Mathematics and English courses to home-based learners and college colleagues in virtual and in-person settings",
-        "Assisted learners with technical problem-solving, digital literacy, and academic support while tracking progress",
-        "Developed learning materials and strengthened communication, documentation, and organizational skills",
+        "Delivered IT, Mathematics, and English lessons to children (home-based learners) and college students, in virtual and in-person settings",
+        "Assisted learners with technical problem-solving, digital literacy, and academic support, tracking progress and ensuring task completion",
+        "Developed structured learning materials, strengthening documentation, communication, and organizational skills",
       ],
     },
     {
@@ -21,20 +21,19 @@ export function Experience() {
       icon: Briefcase,
       points: [
         "Founded and managed a home-based sweets business, handling production, delivery, and customer service",
-        "Managed orders, maintained records, and coordinated workflow",
-        "Developed entrepreneurship, organizational, and client communication skills",
+        "Managed orders, maintained records, and coordinated workflow, developing entrepreneurship, organizational, and client communication skills",
       ],
     },
   ];
 
   const courses = [
-    "Software Engineering – IBM | Coursera (2025)",
+    "Microsoft Azure Fundamentals AZ-900 Exam Prep Specialization – Microsoft | Coursera (In Progress – 2026)",
+    "Cloud Computing Specialization – University of Illinois Urbana-Champaign | Coursera (In Progress – 2026)",
     "Flutter & Dart: Developing iOS, Android, and Mobile Applications – IBM | Coursera (2025)",
     "Technical Support Fundamentals – Google | Coursera (2025)",
+    "Software Engineering – IBM | Coursera (2025)",
     "Getting Started with Cisco Packet Tracer – Networking Academy | Cisco (2024)",
-    "Critical Thinking – ICDR, The Future University (2022)",
-    "Cloud Computing Specialization – University of Illinois (In Progress – 2026)",
-    "Microsoft Azure Fundamentals AZ-900 – Microsoft (In Progress – 2026)",
+    "Continuous English Self-Learning (2017 – Present)",
   ];
 
   return (
@@ -161,7 +160,7 @@ export function Experience() {
           {/* Courses & Certifications */}
           <div className="max-w-4xl mx-auto">
             <h3 className="text-2xl font-semibold text-white mb-6 text-center">
-              Courses & Professional Development
+              Certifications & Professional Development
             </h3>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

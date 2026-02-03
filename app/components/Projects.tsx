@@ -6,52 +6,64 @@ import { Badge } from "@/app/components/ui/badge";
 export function Projects() {
   const projects = [
     {
-      title: "Project Title 1",
-      description: "A comprehensive web application showcasing modern development practices with React and cloud integration.",
+      title: "Portfolio Website",
+      description: "Built a responsive personal portfolio website showcasing IT projects and cloud solutions using modern React and Tailwind CSS.",
       type: "Web Application",
       icon: Globe,
-      tags: ["React", "Node.js", "AWS"],
-      liveUrl: "#",
-      githubUrl: "#",
+      tags: ["React", "Tailwind", "GitHub"],
+      liveUrl: "https://mozanfu-art.github.io",
+      githubUrl: "https://github.com/mozanfu-art/Portfolio",
       gradient: "from-purple-500/30 to-purple-800/30",
       border: "border-purple-400/50",
       shadow: "hover:shadow-purple-400/50",
     },
     {
-      title: "Project Title 2",
-      description: "Mobile application built with Flutter for cross-platform deployment on iOS and Android.",
-      type: "Mobile App",
+      title: "Hotels Portal IT Graduation Project",
+      description: "Created a cross-platform hotel portal for IT graduation project, implementing UI and business logic with Firebase backend integration.",
+      type: "Mobile Application",
       icon: Smartphone,
-      tags: ["Flutter", "Dart", "Firebase"],
+      tags: ["Dart", "Python", "Firebase"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/mozanfu-art/Hotels_Portal_IT_GRADUATION_PROJECT",
       gradient: "from-orange-500/30 to-orange-800/30",
       border: "border-orange-400/50",
       shadow: "hover:shadow-orange-400/50",
     },
     {
-      title: "Project Title 3",
-      description: "Cloud computing solution leveraging Azure services for scalable enterprise applications.",
-      type: "Cloud Solution",
-      icon: Cloud,
-      tags: ["Azure", "Python", "Docker"],
+      title: "Global Hotels Booking Project",
+      description: "Developed a comprehensive hotel booking system integrating user management, room availability, and booking workflows with database backend.",
+      type: "Web Application",
+      icon: Globe,
+      tags: ["HTML", "CSS", "PHP", "MySQL", "JavaScript"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/mozanfu-art/Global_Hotels_Booking_Project",
       gradient: "from-purple-500/30 to-purple-800/30",
       border: "border-purple-400/50",
       shadow: "hover:shadow-purple-400/50",
     },
     {
-      title: "Project Title 4",
-      description: "Full-stack e-commerce platform with payment integration and inventory management.",
+      title: "Hotels Booking Multimedia Project",
+      description: "Built an enhanced hotel booking website with multimedia elements including videos, animations, and interactive features to improve user experience.",
       type: "Web Application",
       icon: Globe,
-      tags: ["JavaScript", "MongoDB", "Express"],
+      tags: ["HTML", "CSS", "JavaScript"],
       liveUrl: "#",
-      githubUrl: "#",
+      githubUrl: "https://github.com/mozanfu-art/Hotels-Booking-MultimediaProject",
       gradient: "from-orange-500/30 to-orange-800/30",
       border: "border-orange-400/50",
       shadow: "hover:shadow-orange-400/50",
+    },
+    {
+      title: "Time Tracker Project",
+      description: "Designed a time tracking mobile app to monitor tasks and productivity with database integration for data persistence and analytics.",
+      type: "Mobile Application",
+      icon: Smartphone,
+      tags: ["Dart", "Flutter"],
+      liveUrl: "#",
+      githubUrl: "https://github.com/mozanfu-art/Time_Tracker_Project",
+      gradient: "from-purple-500/30 to-purple-800/30",
+      border: "border-purple-400/50",
+      shadow: "hover:shadow-purple-400/50",
     },
   ];
 
@@ -198,7 +210,7 @@ export function Projects() {
                 className="bg-gradient-to-r from-purple-500/30 to-orange-500/30 border-purple-300/70 hover:border-purple-300 text-white hover:shadow-lg hover:shadow-purple-500/50 transition-all duration-300"
                 asChild
               >
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/mozanfu-art" target="_blank" rel="noopener noreferrer">
                   <Github className="mr-2 h-4 w-4" />
                   View More on GitHub
                 </a>

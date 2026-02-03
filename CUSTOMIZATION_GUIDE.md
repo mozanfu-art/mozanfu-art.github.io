@@ -2,6 +2,50 @@
 
 This guide will help you customize your portfolio with your actual information and projects.
 
+## ✅ Already Completed
+
+Your portfolio has been customized with your actual information from your CV:
+
+- ✅ Personal details (name, email, phone, location)
+- ✅ GitHub and LinkedIn links updated
+- ✅ Professional summary updated in About section
+- ✅ All 5 projects added with proper descriptions
+- ✅ Technical skills updated with your actual skill set
+- ✅ Work experience updated (Tutor & Entrepreneur)
+- ✅ Education details (First-Class BSc in IT)
+- ✅ Certifications and courses updated
+
+## 📋 Remaining Tasks
+
+### 1. Add Your CV File
+
+**IMPORTANT:** To enable the CV download functionality:
+
+1. Locate your `CV.pdf` file on your computer
+2. Place it in the `/public` folder in your project root
+3. The file must be named exactly `CV.pdf` (case-sensitive)
+4. The download button in the Hero section is already configured to point to `/CV.pdf`
+
+**Note:** If you don't have a `/public` folder yet:
+- Create a new folder called `public` in your project root directory (same level as `src`)
+- Add your `CV.pdf` file inside it
+
+### 2. Update Project Live URLs (Optional)
+
+Some of your projects have placeholder URLs (`#`). When you deploy them, update these:
+
+**File: `/src/app/components/Projects.tsx`**
+
+Find your projects and update the `liveUrl` field:
+```tsx
+{
+  title: "Hotels Portal IT Graduation Project",
+  // ... other fields ...
+  liveUrl: "#", // Replace with actual deployed URL when ready
+  githubUrl: "https://github.com/mozanfu-art",
+}
+```
+
 ## Quick Customization Checklist
 
 ### 1. Personal Information & Links

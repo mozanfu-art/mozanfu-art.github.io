@@ -70,7 +70,7 @@ export function Hero() {
                 backgroundSize: "200% 200%",
               }}
             >
-              MOZAN ABDELSAMIE MOHAMED AHMED
+              Mozan Abdelsamie
             </motion.h1>
           </motion.div>
           
@@ -80,7 +80,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            Information Technology valedictorian with a First-Class degree and a strong foundation in IT systems, IT support, and enterprise solutions.
+            Information Technology Graduate
           </motion.p>
           
           <motion.p
@@ -89,7 +89,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Familiar with cloud computing and networking, and actively developing expertise in AWS and Microsoft Azure. Eager to apply technical knowledge and problem-solving skills in innovative IT projects while advancing as a cloud and enterprise solutions professional.
+            First-Class IT Valedictorian specializing in Cloud Computing, Software Engineering, and Enterprise Solutions
           </motion.p>
           
           <motion.div

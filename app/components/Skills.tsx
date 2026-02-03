@@ -5,33 +5,44 @@ export function Skills() {
   const skillCategories = [
     {
       category: "Cloud & Development Tools",
-      skills: ["AWS", "Microsoft Azure", "Firebase", "Git", "GitHub", "Visual Studio", "Android Studio"],
+      skills: ["AWS", "Microsoft Azure", "WampServer", "Firebase", "Visual Studio", "Android Studio", "Git", "GitHub"],
       color: "purple",
     },
     {
       category: "Programming Languages",
-      skills: ["Python", "Java", "C++", "JavaScript", "Dart", "PHP", "HTML/CSS", "SQL", "NoSQL"],
+      skills: ["C", "C++", "Java", "Python", "HTML", "CSS", "PHP", "JavaScript", "Dart"],
       color: "orange",
     },
     {
-      category: "Frameworks & Libraries",
-      skills: ["Flutter", "React", "Node.js", "Express"],
+      category: "Networking & Database Tools",
+      skills: ["Cisco Packet Tracer", "SQL", "MySQL", "PostgreSQL", "Oracle", "NoSQL"],
       color: "purple",
     },
     {
-      category: "Business & Productivity",
-      skills: ["Microsoft 365", "Google Workspace", "SAP S/4 HANA", "E-Commerce Systems"],
+      category: "Virtualization & OS Tools",
+      skills: ["Windows", "Linux", "VMware"],
       color: "orange",
+    },
+    {
+      category: "Productivity & Collaboration",
+      skills: ["Microsoft 365", "Word", "Excel", "PowerPoint", "Outlook", "Teams", "OneDrive", "SharePoint", "Forms", "Google Workspace", "Zoom", "Discord", "ASANA"],
+      color: "purple",
     },
   ];
 
   const softSkills = [
     "Problem Solving",
     "Analytical Thinking",
-    "Team Collaboration",
-    "Communication",
-    "Time Management",
     "Attention to Detail",
+    "Team Collaboration",
+    "Organizational Skills",
+    "Time Management",
+    "Strong Communication",
+    "Work Independently",
+    "Continuous Learner",
+    "Self-Motivated",
+    "Adaptable",
+    "Quick Learner",
   ];
 
   return (
@@ -135,9 +146,14 @@ export function Skills() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="mt-12 max-w-4xl mx-auto"
           >
-            <h3 className="text-2xl font-semibold text-center mb-6 text-white">
+            <motion.h3 
+              className="text-4xl md:text-5xl font-bold mb-8 text-center bg-gradient-to-r from-purple-300 to-orange-300 bg-clip-text text-transparent"
+              whileInView={{ scale: [0.9, 1] }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
               Soft Skills
-            </h3>
+            </motion.h3>
             <div className="flex flex-wrap gap-3 justify-center">
               {softSkills.map((skill, index) => (
                 <motion.div

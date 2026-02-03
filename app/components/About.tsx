@@ -51,7 +51,7 @@ export function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            I am an Information Technology valedictorian graduate with a First-Class Bachelor's degree and a strong foundation in IT & Computer Systems, networking, databases, software engineering, e-commerce systems, business administration, and accounting principles and programming. Actively developing cloud computing expertise with a career focus on Amazon Web Services (AWS) and Microsoft Azure cloud roles.
+            I am an Information Technology valedictorian with a First-Class degree and a strong foundation in IT systems, IT support, and enterprise solutions. Familiar with cloud computing and networking, and actively developing expertise in AWS and Microsoft Azure. Eager to apply technical knowledge and problem-solving skills in innovative IT projects while advancing as a cloud and enterprise solutions professional.
           </motion.p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
