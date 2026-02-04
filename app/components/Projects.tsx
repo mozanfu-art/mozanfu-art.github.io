@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { ExternalLink, Github, Smartphone, Globe, Cloud } from "lucide-react";
-import { Button } from "@/app/components/ui/button";
-import { Badge } from "@/app/components/ui/badge";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 
 export function Projects() {
   const projects = [

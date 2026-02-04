@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Badge } from "@/app/components/ui/badge";
+import { Badge } from "@/components/ui/badge";
 
 export function Skills() {
   const skillCategories = [
