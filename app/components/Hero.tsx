@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { Github, Linkedin, Mail, Download } from "lucide-react";
-import { Button } from "@/components/ui/button";
+// Adjust the import path to the correct location of the Button component
+import { Button } from "../components/ui/button.js"; // Ensure the path and casing are correct
 
 export function Hero() {
   return (

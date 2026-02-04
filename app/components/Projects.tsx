@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { ExternalLink, Github, Smartphone, Globe, Cloud } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Badge } from "@/components/ui/badge";
+import { Button } from "./ui/button.js"; // Adjusted the import path to the correct relative path
+import { Badge } from "./ui/badge.js"; // Adjusted the import path to the correct relative path
 
 export function Projects() {
   const projects = [

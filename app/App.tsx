@@ -1,11 +1,11 @@
-import { Navigation } from "@/components/Navigation";
-import { Hero } from "@/components/Hero";
-import { About } from "@/components/About";
-import { Skills } from "@/components/Skills";
-import { Experience } from "@/components/Experience";
-import { Projects } from "@/components/Projects";
-import { Contact } from "@/components/Contact";
-import { Footer } from "@/components/Footer";
+import { Navigation } from "./components/Navigation.js"; // Adjusted to relative path
+import { Hero } from "./components/Hero.js"; // Adjusted to relative path
+import { About } from "./components/About.js"; 
+import { Skills } from "./components/Skills.js"; 
+import { Experience } from "./components/Experience.js"; 
+import { Projects } from "./components/Projects.js"; 
+import { Contact } from "./components/Contact.js"; 
+import { Footer } from "./components/Footer.js"; 
 
 export default function App() {
   return (
