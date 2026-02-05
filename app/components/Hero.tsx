@@ -90,7 +90,7 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            First-Class IT Valedictorian specializing in Cloud Computing, Software Engineering, and Enterprise Solutions
+            First-Class IT Valedictorian specializing in IT Support, Cloud Computing and Software Engineering
           </motion.p>
           
           <motion.div

@@ -31,7 +31,8 @@ export function Skills() {
   ];
 
   const softSkills = [
-    "Problem Solving",
+    "Problem-Solving",
+    "Troubleshooting",
     "Analytical Thinking",
     "Attention to Detail",
     "Team Collaboration",
@@ -39,6 +40,7 @@ export function Skills() {
     "Time Management",
     "Strong Communication",
     "Work Independently",
+    "Work Under Pressure",
     "Continuous Learner",
     "Self-Motivated",
     "Adaptable",
@@ -48,6 +50,7 @@ export function Skills() {
     "Goal Oriented",
     "Customer Communication",
     "Documentation Accuracy",
+    "Reporting Skills",
   ];
 
   return (
