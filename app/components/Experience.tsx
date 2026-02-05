@@ -4,36 +4,36 @@ import { Briefcase, GraduationCap } from "lucide-react";
 export function Experience() {
   const experiences = [
     {
-      title: "Private Tutor (Freelance)",
-      period: "2020 – 2025",
+      title: "Freelance – Private Tutor",
+      period: "2021 – 2025",
       type: "Professional Experience",
       icon: Briefcase,
       points: [
-        "Delivered IT, Mathematics, and English lessons to children (home-based learners) and college students, in virtual and in-person settings",
-        "Assisted learners with technical problem-solving, digital literacy, and academic support, tracking progress and ensuring task completion",
-        "Developed structured learning materials, strengthening documentation, communication, and organizational skills",
+        "Delivered IT, Mathematics, and English lessons to 20+ students, in virtual and in-person settings", 
+        "Provided individualized academic and technical support, emphasizing problem solving and digital literacy",
+        "Designed structured learning materials, strengthening documentation and reporting skills",
       ],
     },
     {
-      title: "Home-Based Entrepreneur – Sweets Delivery",
+      title: "Entrepreneur – Home-Based",
       period: "2020 – 2021",
       type: "Professional Experience",
       icon: Briefcase,
       points: [
-        "Founded and managed a home-based sweets business, handling production, delivery, and customer service",
-        "Managed orders, maintained records, and coordinated workflow, developing entrepreneurship, organizational, and client communication skills",
+        "Founded and managed a small enterprise, overseeing workflow coordination, and customer relations",
+        "Applied project management skills to handle orders, scheduling, and resource allocation",
+        "Processed 50+ customer orders per month ensuring timely delivery and service quality",
       ],
     },
   ];
 
   const courses = [
-    "Microsoft Azure Fundamentals AZ-900 Exam Prep Specialization – Microsoft | Coursera (In Progress – 2026)",
-    "Cloud Computing Specialization – University of Illinois Urbana-Champaign | Coursera (In Progress – 2026)",
+    "Microsoft Azure Fundamentals AZ-900 Exam Prep Specialization – Microsoft | Coursera (2026 – In Progress)",
+    "Cloud Computing Specialization – University of Illinois Urbana-Champaign | Coursera (2026 – In Progress)",
     "Flutter & Dart: Developing iOS, Android, and Mobile Applications – IBM | Coursera (2025)",
     "Technical Support Fundamentals – Google | Coursera (2025)",
     "Software Engineering – IBM | Coursera (2025)",
     "Getting Started with Cisco Packet Tracer – Networking Academy | Cisco (2024)",
-    "Continuous English Self-Learning (2017 – Present)",
   ];
 
   return (

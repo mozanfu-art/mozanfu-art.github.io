@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Code2, Cloud, Database, Network } from "lucide-react";
+import { Code2, Cloud, Database, Network, Headphones, Users } from "lucide-react";
 
 export function About() {
   const highlights = [
@@ -22,6 +22,16 @@ export function About() {
       icon: Network,
       title: "Networking",
       description: "Network design and Cisco certified skills",
+    },
+    {
+      icon: Headphones, 
+      title: "Technical Support",
+      description: "Troubleshooting, documentation, and IT assistance for users",
+    },
+    {
+      icon: Users, 
+      title: "Customer Service",
+      description: "Client communication, reporting, and relationship management",
     },
   ];
 
@@ -51,7 +61,7 @@ export function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.2 }}
           >
-            I am an Information Technology valedictorian with a First-Class degree and a strong foundation in IT systems, IT support, and enterprise solutions. Familiar with cloud computing and networking, and actively developing expertise in AWS and Microsoft Azure. Eager to apply technical knowledge and problem-solving skills in innovative IT projects while advancing as a cloud and enterprise solutions professional.
+            I am an Information Technology valedictorian graduate with a First-Class degree and a strong foundation in IT systems and support. Skilled in problem solving, customer communication, documentation, and reporting. Well-versed in cloud computing and networking, currently enhancing expertise in AWS and Microsoft Azure. Seeking to leverage both IT knowledge and support skills in innovative projects and enterprise solutions.
           </motion.p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

@@ -43,6 +43,11 @@ export function Skills() {
     "Self-Motivated",
     "Adaptable",
     "Quick Learner",
+    "Patient",
+    "Determined",
+    "Goal Oriented",
+    "Customer Communication",
+    "Documentation Accuracy",
   ];
 
   return (
