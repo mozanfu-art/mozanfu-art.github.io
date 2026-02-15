@@ -65,6 +65,18 @@ export function Projects() {
     border: "border-purple-400/50",
     shadow: "hover:shadow-purple-400/50",
   },
+  {
+    title: "NabtaTech Solutions Network Infrastructure",
+    description: "Configured the network infrastructure for NabtaTech Solutions, a simulated company environment. Included full documentation, addressing plans, diagrams, and configuration files organized in the shared Drive and GitHub repository as part of the company establishment setup.",
+    type: "Networking Infrastructure Project",
+    icon: Cloud,
+    tags: ["Networking", "Cisco", "VLANs", "Linux Servers", "Virtual Machines", "Documentation"],
+    liveUrl: "https://drive.google.com/drive/folders/1CQy_Z-U9J0OdYcqkS8MTRSWttD_PIffX?usp=sharing",
+    githubUrl: "https://github.com/mozanfu-art/NabtaTech_Solutions",
+    gradient: "from-orange-500/30 to-orange-800/30",
+    border: "border-orange-400/50",
+    shadow: "hover:shadow-orange-400/50",
+},
 ];
 
   return (
