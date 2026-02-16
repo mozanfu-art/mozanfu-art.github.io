@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
-import { ExternalLink, Github, Smartphone, Globe, Cloud } from "lucide-react";
-import { Button } from "./ui/button.js"; // Adjusted the import path to the correct relative path
-import { Badge } from "./ui/badge.js"; // Adjusted the import path to the correct relative path
+import { ExternalLink, Github, Smartphone, Globe, Cloud, FileText, BarChart3, Network } from "lucide-react";
+import { Button } from "./ui/button.js"; 
+import { Badge } from "./ui/badge.js"; 
 
 export function Projects() {
   const projects = [
@@ -69,7 +69,7 @@ export function Projects() {
     title: "NabtaTech Solutions - Company Network Infrastructure & VM Server Setup",
     description: "A complete network and VM environment built to model the infrastructure of NabtaTech Solutions, a simulated company. Check the full documentation including IP addressing plans, topology diagrams, and configuration files organized across the shared Drive and GitHub repository as part of the company’s establishment process.",
     type: "Networking Infrastructure Project",
-    icon: Cloud,
+    icon: Network,
     tags: ["Cisco Packet Tracer", "Linux Servers", "Ubuntu", "VirtualBox", "Draw.io", "Microsoft Word"],
     liveUrl: "https://drive.google.com/drive/folders/1CQy_Z-U9J0OdYcqkS8MTRSWttD_PIffX?usp=sharing",
     githubUrl: "https://github.com/mozanfu-art/NabtaTech_Solutions",
@@ -93,7 +93,7 @@ export function Projects() {
     title: "NabtaTech Solutions - Administrative Templates & Documentation Pack",
     description: "A professional operations documentation package for NabtaTech Solutions, including branded Visitor Badge, Meeting Agenda, and Memorandum templates with formal DOCX/PDF descriptions. Designed to standardize internal communication and support office administration, secretary, and document control workflows.",
     type: "Documentation Package",
-    icon: Globe,
+    icon: FileText,
     tags: ["Microsoft Word", "Canva", "Google Workspace"],
     liveUrl: "https://drive.google.com/drive/folders/1CQy_Z-U9J0OdYcqkS8MTRSWttD_PIffX?usp=sharing",
     githubUrl: "https://github.com/mozanfu-art/NabtaTech_Solutions",
@@ -105,7 +105,7 @@ export function Projects() {
     title: "NabtaTech Solutions - Operations Data & Reporting Assets",
     description: "A structured administration data package containing Excel workbooks, SQL setup scripts, and sample datasets for visitor logs, document registers, correspondence tracking, and meeting records. This project supports KPI reporting, process visibility, and audit-ready office operations in the NabtaTech simulation.",
     type: "Data & Reporting Package",
-    icon: Globe,
+    icon: BarChart3,
     tags: ["Microsoft Excel", "CSV", "SQL", "Google Workspace"],
     liveUrl: "https://drive.google.com/drive/folders/1CQy_Z-U9J0OdYcqkS8MTRSWttD_PIffX?usp=sharing",
     githubUrl: "https://github.com/mozanfu-art/NabtaTech_Solutions",
