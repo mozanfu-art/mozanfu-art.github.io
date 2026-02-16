@@ -67,10 +67,10 @@ export function Projects() {
   },
   {
     title: "NabtaTech Solutions Network Infrastructure",
-    description: "A complete network and VM environment built to model the infrastructure of NabtaTech Solutions. Configured departmental VLANs, router connectivity, and Linux virtual servers for NabtaTech Solutions, a simulated company environment. Delivered complete documentation including IP addressing plans, topology diagrams, and configuration files organized across the shared Drive and GitHub repository as part of the company’s establishment process.",
+    description: "A complete network and VM environment built to model the infrastructure of NabtaTech Solutions, a simulated company. Check the full documentation including IP addressing plans, topology diagrams, and configuration files organized across the shared Drive and GitHub repository as part of the company’s establishment process.",
     type: "Networking Infrastructure Project",
     icon: Cloud,
-    tags: ["Networking", "Cisco", "VLANs", "Linux Servers", "Virtual Machines", "Documentation"],
+    tags: ["Cisco Packet Tracer", "Linux Servers", "Ubuntu", "VirtualBox", "Microsoft Office"],
     liveUrl: "https://drive.google.com/drive/folders/1CQy_Z-U9J0OdYcqkS8MTRSWttD_PIffX?usp=sharing",
     githubUrl: "https://github.com/mozanfu-art/NabtaTech_Solutions",
     gradient: "from-orange-500/30 to-orange-800/30",
