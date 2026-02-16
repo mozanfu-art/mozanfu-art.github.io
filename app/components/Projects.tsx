@@ -67,7 +67,7 @@ export function Projects() {
   },
   {
     title: "NabtaTech Solutions Network Infrastructure",
-    description: "Configured the network infrastructure for NabtaTech Solutions, a simulated company environment. Included full documentation, addressing plans, diagrams, and configuration files organized in the shared Drive and GitHub repository as part of the company establishment setup.",
+    description: "A complete network and VM environment built to model the infrastructure of NabtaTech Solutions. Configured departmental VLANs, router connectivity, and Linux virtual servers for NabtaTech Solutions, a simulated company environment. Delivered complete documentation including IP addressing plans, topology diagrams, and configuration files organized across the shared Drive and GitHub repository as part of the company’s establishment process.",
     type: "Networking Infrastructure Project",
     icon: Cloud,
     tags: ["Networking", "Cisco", "VLANs", "Linux Servers", "Virtual Machines", "Documentation"],
