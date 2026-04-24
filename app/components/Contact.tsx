@@ -6,14 +6,14 @@ export function Contact() {
     {
       icon: MapPin,
       label: "Location",
-      value: "Doha, Qatar",
+      value: "River Nile State, Sudan",
       color: "purple",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+974 33846736",
-      href: "tel:+97433846736",
+      value: "+249 901979867",
+      href: "tel:+249901979867",
       color: "orange",
     },
     {
