@@ -28,13 +28,16 @@ export function Experience() {
   ];
 
   const courses = [
-    "Microsoft Azure Fundamentals (AZ-900) Exam Prep Specialization – Microsoft | Coursera (2026 – In Progress)",
-    "Cloud Computing Specialization – University of Illinois Urbana-Champaign | Coursera (2026 – In Progress)",
-    "Flutter & Dart: Developing iOS, Android, and Mobile Applications – IBM | Coursera (2025)",
-    "Technical Support Fundamentals – Google | Coursera (2025)",
-    "Software Engineering – IBM | Coursera (2025)",
-    "Getting Started with Cisco Packet Tracer – Networking Academy | Cisco (2024)",
-    "Critical Thinking – IRDC | The Future University (2022)",
+    "Microsoft Azure Fundamentals (AZ-900) Exam Prep Specialization – Microsoft Coursera (In Progress)",
+    "Cloud Computing Specialization – University of Illinois Urbana-Champaign Coursera (In Progress)",
+    "Networking Basics – Cisco Networking Academy (04/2024)",
+    "Secure & Scalable Cloud Infrastructure with Microsoft Azure – Microsoft Coursera (03/2026)",
+    "Essentials with Azure Fundamentals – Microsoft Coursera (02/2026)",
+    "Flutter & Dart: Developing iOS, Android, and Mobile Applications – IBM Coursera (01/2026)",
+    "Technical Support Fundamentals – Google Coursera (01/2026)",
+    "Software Engineering – IBM | Coursera (01/2025)",
+    "Getting Started with Cisco Packet Tracer – Cisco Networking Academy (09/2024)",
+    "Critical Thinking – IRDC | The Future University (06/2022)",
   ];
 
   return (
