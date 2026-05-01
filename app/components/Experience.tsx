@@ -28,8 +28,9 @@ export function Experience() {
   ];
 
   const courses = [
-    "Microsoft Azure Fundamentals (AZ-900) Exam Prep Specialization – Microsoft Coursera (In Progress)",
-    "Cloud Computing Specialization – University of Illinois Urbana-Champaign Coursera (In Progress)",
+    "Microsoft Azure Fundamentals (AZ-900) Exam Prep Specialization – Microsoft Coursera (in Progress)",
+    "Cloud Computing Specialization – University of Illinois Urbana-Champaign Coursera (in Progress)",
+    "ITIL V4 Certification Preparation Specialization – EDUCBA Coursera (in Progress)",
     "Networking Basics – Cisco Networking Academy (04/2024)",
     "Secure & Scalable Cloud Infrastructure with Microsoft Azure – Microsoft Coursera (03/2026)",
     "Essentials with Azure Fundamentals – Microsoft Coursera (02/2026)",
