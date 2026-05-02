@@ -6,7 +6,7 @@ export function Contact() {
     {
       icon: MapPin,
       label: "Location",
-      value: "River Nile State, Sudan",
+      value: "AD Damer, River Nile State, Sudan",
       color: "purple",
     },
     {

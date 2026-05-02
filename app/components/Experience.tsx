@@ -31,7 +31,7 @@ export function Experience() {
     "Microsoft Azure Fundamentals (AZ-900) Exam Prep Specialization – Microsoft Coursera (in Progress)",
     "Cloud Computing Specialization – University of Illinois Urbana-Champaign Coursera (in Progress)",
     "ITIL V4 Certification Preparation Specialization – EDUCBA Coursera (in Progress)",
-    "Networking Basics – Cisco Networking Academy (04/2024)",
+    "Networking Basics – Cisco Networking Academy (04/2026)",
     "Secure & Scalable Cloud Infrastructure with Microsoft Azure – Microsoft Coursera (03/2026)",
     "Essentials with Azure Fundamentals – Microsoft Coursera (02/2026)",
     "Flutter & Dart: Developing iOS, Android, and Mobile Applications – IBM Coursera (01/2026)",
